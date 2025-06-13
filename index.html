@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap" rel="stylesheet">
+    <title>Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Playfair Display", serif;
+            background-color: #E4E6D9;
+
+        }
+        
+        .menu-container {
+            margin-left: auto;
+            margin-right: 18px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 150px; 
+        }
+        .menu-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 50px; /* Радиус закругления */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        
+        .menu-container a {
+            text-decoration: none;
+            color: #000000;
+            padding: 3px 6px;
+            border-radius: 5px;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+        .menu-container a:hover {
+            background-color: #f0f0f0;
+        }
+        .peredheader {
+            background-color: #6D8777;
+            color: white;
+            text-align: center;
+            padding: 1px 0;
+            font-size: 15px;
+            display: flex;
+        }
+        .сonfectionery {
+            margin-left: 25px;
+            font-weight: 400;
+        }
+        .container {
+  background-color: #6D8777;
+  padding: 20px;
+  display: flex; /* Используем Grid */
+  gap: 50px; /* Отступ между элементами */
+  align-items: center; /* Выравниваем по вертикали */
+  border-radius: 10px; /* Закругленные углы */
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+}
+.zag{
+    font-size: 96px;
+    margin-left: 50px;
+}
+.dobro{
+    font-size: 26px;
+}
+.contain {
+  background-color: #6D8777;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contain h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.image-contain {
+  width: 100%;
+  max-width: 500px;  /* Максимальная ширина изображения */
+  margin-bottom: 15px;
+  overflow: hidden;  /* Важно для предотвращения вывода за границу */
+}
+
+.image-contain img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px; /* Закругленные углы изображения */
+}
+
+.info {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.map-contain {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;  /* Важно для предотвращения вывода за границу */
+}
+
+
+.map-contain iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.imag-cont {
+    display: flex;
+    justify-content: center; /* Выравнивает элементы по центру */
+    align-items: center;  /* Выравнивает элементы по вертикали по центру */
+  }
+
+  .imag {
+    width: 400px; /* Установите нужную ширину */
+    height: auto; /* Автоматическая высота, чтобы сохранять пропорции */
+    margin: 30px; /* Отступ между изображениями */
+  }
+
+   
+.footer {
+            background-color: #000000;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin-top: 35px;
+        }
+
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .footer .social-media {
+            margin-top: 10px;
+        }
+
+        .footer .social-media a {
+            margin: 0 5px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="peredheader">
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+      <p class="сonfectionery">сonfectionery</p>
+    </div>
+    <div class="menu-container">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="indexassort.html">ASSORTMENT</a></li>
+            <li><a href="order.html">ORDER</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <p class="zag">The Cangy Gargen<p>
+        <p class="dobro">Добро пожаловать на сайт нашей кондитерской! <br> <br> В мире, полном сладостей, мы рады вам предложить уникальный опыт погружения в мир кулинарных наслаждений. Наша кондитерская это место, где каждый десерт создается с любовью и вниманием к деталям</p>
+       </div>
+       <div class="contain">
+        <h1>О нас</h1>
+        <div class="image-container">
+            <H2>Будем рады видеть вас в нашей кондитерской.</H2>
+            <center>
+          <img src="0e86bbc78dfeee0b68d14aa97d435c9a.jpg" alt="Фото кондитерской" style="width: auto; height:600px; text-align: center;">  <!-- Замените на ваше изображение -->
+        </center>
+        </div>
+      
+        <div class="info">
+          <p>
+            The Candy Garden – это не просто кондитерская, это место, где воплощаются самые сладкие мечты. Мы – команда опытных кондитеров, пассажиров искусства и настоящих ценителей сладкого, которые вкладывают душу в каждое созданное нами изделие. Наша цель – подарить вам незабываемые вкусовые ощущения и эстетическое удовольствие, превратив обычный десерт в настоящий праздник.
+            <br>
+            <br>
+
+            Философия “The Candy Garden”:
+            
+            В основе нашей работы лежит использование только свежих, высококачественных ингредиентов. Мы тщательно отбираем поставщиков, предпочитая натуральные продукты местных производителей. Это позволяет нам гарантировать не только изумительный вкус, но и безопасность наших кондитерских изделий.
+            
+            Наша философия – это гармония вкуса и эстетики. Мы стремимся к совершенству во всем – от изготовления нежных бисквитов до декорирования тортов сложными и изысканными узорами. Каждый торт – это миниатюрное произведение искусства, созданное с любовью и вниманием к деталям.
+            <br>
+
+            Команда:
+            
+            Наша команда состоит из опытных кондитеров, прошедших специальное обучение и имеющих многолетний опыт работы. Мы постоянно совершенствуем свои навыки и следим за последними трендами в мире кондитерского искусства.
+            
+            Заказ и доставка:
+            
+            Заказать любое изделие из нашего ассортимента можно на нашем сайте или по телефону. Мы также предлагаем удобную доставку по городу.
+            <br></p>
+            <div class="imag-cont">
+                <img src="coffee-shop-small-business_23-2149196233.jpg" alt="Изображение 1" class="imag">
+                <img src="coffee-shop-small-business_23-2149196235.jpg" alt="Изображение 2" class="imag">
+              </div>
+              <p>Команда:
+                Наша команда состоит из опытных кондитеров, прошедших специальное обучение и имеющих многолетний опыт работы. Мы постоянно совершенствуем свои навыки и следим за последними трендами в мире кондитерского искусства.
+                </p>
+      
+          <div class="map-contain">
+            <center>
+            <h3>Где нас найти?</h3>
+        </center>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.0549644185353!2d37.62036501564631!3d55.75533028044706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a3a9957d37b%3A0xd7c21b234220b00a!2z0YPQuy4g0KHRgdC90YLQsdC-0LTQvtGB0L3RgtC-0YDQvtC70YHQsNC10LXRgtC-0YDQvtC70L3QvtC60L7QsdC+0LXRgdGC0LDRgNC10LLQuNGC0Y8!5e0!3m2!1sru!2sru!4v1696308223107!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      
+          <p>Мы находимся по адресу: ул. Михайловская, д. 53</p>
+        </div>
+        </div>
+      
+       <footer>
+        <div class="footer">
+            <p>© 2024 Кондитерская. Все права защищены.</p>
+            <p>
+                <a href="#">Политика конфиденциальности</a> | 
+                <a href="#">Условия использования</a> | 
+                <a href="#">О кинотеатре</a> | 
+                <a href="#">Контакты: +7 987-689-535-22</a>
+            </p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+       
+</body>
+</html>
